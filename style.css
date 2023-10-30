@@ -60,7 +60,7 @@ nav{
    width: 350px;
 }
 .section-one-right img{
-   width: 878px;
+   width: 863px;
 }
 .section-two{
     background-image: url(./img/back.\ img\ 1.webp);
@@ -320,6 +320,7 @@ nav{
     height: 5vh;
     /* background-color: red; */
     margin-left: 335px;
+    display: flex;
 }
 .set1 img{
     padding-left: 25px;

@@ -1,0 +1,44 @@
+@media screen and (max-width: 320px){
+    nav{
+        display: flex;
+        justify-content: space-between;
+        background-color: darkgreen;
+        height: 40vh;
+        position: fixed;
+        width: 35%;
+    }
+    .logo img{
+        margin-top: 40px;
+        margin-left: 100px;
+    }
+    .list-items{
+        display:flexbox;
+    }
+    .list-items li{
+        color: white;
+        margin: 18px 10px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .list-items ul{
+        margin: 0px 2px;
+        display: flex;
+    }
+    .section-one{
+        display: grid;
+    }
+    .section-one-left img{
+        width: 300px;
+        margin-top: 60px;
+    }
+}
+@media screen and (min-width: 375px){
+    nav{
+        display: flexbox;
+        justify-content: space-between;
+        background-color: #039f5f;
+        height: 10vh;
+        position: fixed;
+        width: 100%;
+    }
+}
